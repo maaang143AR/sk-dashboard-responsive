@@ -13,9 +13,9 @@ const RectangleBox = ({ label, value }: { label: string; value: number }) => {
         justifyContent: "space-between",
         alignItems: "center",
 
-        "@media (max-width: 430px) and (max-height:930px) ": {
+        "@media (max-width: 550px) and (max-height:930px) ": {
           gridColumnStart: 1,
-          gridColumnEnd: 5,
+          gridColumnEnd: 6,
           bgColor:"blue",
           alignItems: "center",
           

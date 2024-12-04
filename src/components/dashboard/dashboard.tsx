@@ -108,9 +108,9 @@ const Dashboard = () => {
             gridTemplateRows: `repeat(3,1fr)`,
             gridTemplateColumns: `repeat(3,1fr)`,
 
-            "@media (max-width: 430px) and (max-height: 930px)": {
+            "@media (max-width: 550px) and (max-height: 930px)": {
               gridTemplateRows: `repeat(2,1fr)`,
-              gridTemplateColumns: `repeat(4,1fr)`,
+              gridTemplateColumns: `repeat(5,1fr)`,
               p: "0 0.5rem 0.5rem 0.5rem",
               rowGap: "0.5rem",
               columnGap: "0.5rem",
@@ -127,9 +127,9 @@ const Dashboard = () => {
               gridRowStart: -4,
               gridRowEnd: -1,
               
-              "@media (max-width: 430px)": {
+              "@media (max-width: 550px)": {
                 gridColumnStart: 1,
-                gridColumnEnd: 5,
+                gridColumnEnd: 6,
                 gridRowStart: 3,
                 gridRowEnd: 4,
               },
