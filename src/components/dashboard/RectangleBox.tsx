@@ -29,12 +29,23 @@ const RectangleBox = ({ label, value }: { label: string; value: number }) => {
           "@media (max-width: 430px)": {
             fontSize: "2rem",
           },
+          "@media (min-width: 1000px)": {
+            fontSize: "5rem",
+          },
           fontWeight: "bold",
         }}
       >
         {label}
       </Typography>
-      <Typography sx={{ fontSize: "3rem", fontWeight: "bold" }}>
+      <Typography sx={{
+         "@media (max-width: 430px)": {
+          fontSize: "2rem",
+        },
+        "@media (min-width: 1000px)": {
+          fontSize: "5rem",
+        },
+         fontSize: "3rem", fontWeight: "bold"
+        }}>
         {label === "Achieved %" ? value + "%" : value}
       </Typography>
     </Box>
